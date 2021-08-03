@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832175601298",
+    "project_id": "attch-2d724",
+    "storage_bucket": "attch-2d724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832175601298:android:1d2d3d661dfa82f2cb984b",
+        "android_client_info": {
+          "package_name": "com.callor.attch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832175601298-3kgmppqrpvv1k9ut85q7bna3hdojmgd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvMAZwyrbajA0A-66uACTKtw6FP8Icak4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832175601298-3kgmppqrpvv1k9ut85q7bna3hdojmgd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
