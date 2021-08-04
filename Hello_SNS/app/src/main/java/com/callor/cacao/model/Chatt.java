@@ -1,17 +1,8 @@
-package com.callor.attch.model;
+package com.callor.cacao.model;
 
-public class chatt {
+public class Chatt {
 
     private String name;
-
-    @Override
-    public String toString() {
-        return "chatt{" +
-                "name='" + name + '\'' +
-                ", msg='" + msg + '\'' +
-                '}';
-    }
-
     private String msg;
 
     public String getName() {
@@ -30,5 +21,11 @@ public class chatt {
         this.msg = msg;
     }
 
-
+    @Override
+    public String toString() {
+        return "Chatt{" +
+                "name='" + name + '\'' +
+                ", msg='" + msg + '\'' +
+                '}';
+    }
 }
