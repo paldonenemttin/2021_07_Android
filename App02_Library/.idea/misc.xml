@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/bizworks/2021_07_Android/Hello_SNS/app/src/main/res/layout/activity_main.xml" value="0.17142857142857143" />
-        <entry key="..\:/bizworks/2021_07_Android/Hello_SNS/app/src/main/res/layout/chatt_item.xml" value="0.1" />
-        <entry key="..\:/bizworks/2021_07_Android/Hello_SNS/app/src/main/res/menu/main_tool_menu.xml" value="0.22" />
+        <entry key="..\:/bizworks/2021_07_Android/App02_Library/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1" />
+        <entry key="..\:/bizworks/2021_07_Android/App02_Library/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/bizworks/2021_07_Android/App02_Library/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/bizworks/2021_07_Android/App02_Library/app/src/main/res/layout/fragment_first.xml" value="0.22" />
       </map>
     </option>
   </component>
