@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127240060486",
+    "project_id": "todolist-bce1e",
+    "storage_bucket": "todolist-bce1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127240060486:android:75e46df946cb04ff149447",
+        "android_client_info": {
+          "package_name": "com.callor.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127240060486-27fdqa3chk4c4k0sfu96iophipani6ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK98ZGDHP35zyrOBhGVw6u2tlEtFN0Lkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127240060486-27fdqa3chk4c4k0sfu96iophipani6ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
