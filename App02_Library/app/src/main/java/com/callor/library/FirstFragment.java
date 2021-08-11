@@ -13,6 +13,9 @@ import com.callor.library.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {
 
+
+    // fragment_first.xml 을 Binding하라 라는 의미가 된다.
+    // *.xml 파일이 마치 java class가 된것 처럼 코딩을 할수 있다
     private FragmentFirstBinding binding;
 
     @Override
@@ -28,14 +31,6 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
-            }
-        });
     }
 
     @Override
@@ -43,5 +38,6 @@ public class FirstFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
 
 }

@@ -2,6 +2,7 @@ package com.callor.library;
 
 import android.os.Bundle;
 
+import com.callor.library.Service.NaverAPIServiceV1;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,9 +19,16 @@ import com.callor.library.databinding.ActivityMainBinding;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import lombok.SneakyThrows;
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
+
+    /**
+     * viewbinding이 true로 설정이 되면
+     * 자동으로 내부에서 생성되는 새로은 개념의 클래스이다
+     */
     private ActivityMainBinding binding;
 
     @Override
@@ -36,25 +44,32 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * binding이 성립되면 *.xml에 포함된 View Component는 별도의
-         * 객체선언이 필요없고
+         * 객체 선언이 필요 없고
          * 사용할때는
-         * binding.txt_name
-         * binging.txt_message
-         * 와 같은 형식으로 직접 핸들링 각능
+         *      binding.txt_name
+         *      binding.txt_message
+         *  와 같은 형식으로 직접 핸들링이 가능하다
          */
-        
         setSupportActionBar(binding.toolbar);
 
-        // Actionbar에 설정된 햄버거 버튼과 관련있는 소스
+        // ActionBar에 설정된 햄버거 버튼과 관련 코드
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
+        // fab = findByViewId(R.id.fab) 이런 코드가 필요했으나
+        // binding이 성립된 경우는 필요 없는 코드가 된다.
+        // binding.fab 객체 접근하여 event등을 선언할수 있게 된다.
         binding.fab.setOnClickListener(new View.OnClickListener() {
+            @SneakyThrows
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
+                NaverAPIServiceV1 naver = new NaverAPIServiceV1();
+                naver.getNaverBooks("자바");
+
             }
         });
     }
