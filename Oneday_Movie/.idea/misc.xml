@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/bizworks/2021_07_Android/App04_News/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/bizworks/2021_07_Android/App04_News/app/src/main/res/layout/news_item_view.xml" value="0.1" />
-        <entry key="..\:/bizworks/AndProject/App04_News/app/src/main/res/layout/news_item_view.xml" value="0.1" />
+        <entry key="..\:/bizworks/AndProject/Oneday_Movie/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/bizworks/AndProject/Oneday_Movie/app/src/main/res/layout/movie_item_view.xml" value="0.33" />
+        <entry key="..\:/bizworks/AndProject/Oneday_Movie/app/src/main/res/menu/movie_item_menu.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>
