@@ -8,12 +8,12 @@ android {
     defaultConfig {
         applicationId "com.callor.movie"
         minSdk 25
-        targetSdk 30
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        targetSdkVersion 30
+        targetSdkVersion 31
         minSdkVersion 25
     }
 
@@ -30,7 +30,7 @@ android {
     buildFeatures {
         viewBinding true
     }
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion '30.0.2'
 }
 
@@ -45,7 +45,7 @@ dependencies {
     annotationProcessor('org.projectlombok:lombok:1.18.20')
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation 'com.squareup.picasso:picasso:2.71828'
+
     implementation 'com.github.bumptech.glide:glide:4.12.0'
 
     testImplementation 'junit:junit:4.13.2'
